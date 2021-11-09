@@ -42,15 +42,6 @@
             </li>
             <li>
                 <a 
-                    href="/about" 
-                    class="{current === 'about' ? 'active' : ''}" 
-                     on:click="{() => current = 'about'}"
-                >
-                    About
-                </a>
-            </li>
-            <li>
-                <a 
                     href="/contact" 
                     class="{current === 'contact' ? 'active' : ''}" 
                      on:click="{() => current = 'contact'}"
@@ -64,14 +55,14 @@
 
 <style>
     header {
-        background-image: url("/AC-Skyline.jpg");
+        background-image: url("/AC-Skyline.jpg"); 
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        /* background-color: #FFF; */
-        background-color: #F87B72;
-        height: 65vh;
+        background-color: #FFF;
+        height: 50vh;
         padding: 2rem 4rem;
+        margin: 0;
         display: flex;
         justify-content: space-between;
         opacity: 0.9;

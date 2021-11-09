@@ -4,8 +4,8 @@
 
 <main>
     <h1>Small Business Consulting</h1>
-    <p>I work with small businesses in South Jersey to improve processes and to help them reach their financial goals through my consultancy, <span class="consulting">JLentz Consulting</span>. I am also available for project management services.</p>
-    <p><a href="/about">Contact Me</a> today for a free consultation to see if <span class="consulting">JLentz Consulting</span> would be a good fit for your needs!</p>
+    <p>I work with small businesses in South Jersey to improve their processes and to help them reach their financial goals through my consultancy, <span class="consulting">JLentz Consulting</span>. I am also available for project management services.</p>
+    <p><a href="/contact">Contact Me</a> today for a free consultation to see if <span class="consulting">JLentz Consulting</span> would be a good fit for your needs!</p>
 </main>
 
 <style>

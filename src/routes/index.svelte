@@ -3,11 +3,11 @@
 </svelte:head>
 
 <script>
-    import { fade, fly } from 'svelte/transition';
-    import { onMount } from 'svelte';
+    // import { fade, fly } from 'svelte/transition';
+    // import { onMount } from 'svelte';
 
-    let ready = false;
-    onMount(() => ready = true);
+    // let ready = false;
+    // onMount(() => ready = true);
 </script>
 
 <!-- {#if ready}
@@ -18,12 +18,13 @@
 </div>
 {/if} -->
 <main>
+    <img src="/JeremeLentzHeadshot1.png" alt="Jereme Lentz Headshot" />
     <p>Hi, my name is Jereme Lentz, and I am a freelance <a href="/webdev">website designer and developer</a>, <a href="consulting">small business consultant</a>, and <a href="/photography">photographer</a> located in Egg Harbor City in the <span class="pine"><a href="https://en.wikipedia.org/wiki/Pine_Barrens_(New_Jersey)">pine barrens</a></span> of Atlantic County, New Jersey.</p>
     <p>Find out more <a href="/about">About Me</a> Here!</p>
 </main>
 
 <style>
-    .hero {
+    /* .hero {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -45,15 +46,19 @@
     
     .hero h1 a:hover {
         color: #F87B72;
-    }
+    } */
 
     main {
         margin: 2rem 12rem;
     }
 
+    main img {
+        border-radius: 50%;
+        width: 25%; 
+        float: left;
+    }
+
     main p {
-        margin: 0;
-        padding: 1rem 0;
         font-size: 2rem;
     }
 
